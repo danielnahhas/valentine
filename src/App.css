@@ -123,3 +123,40 @@ h1 {
     opacity: 0.7;
   }
 }
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .star {
+    width: 0.5px;
+    height: 0.5px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: none; /* Remove maximum width for smaller screens */
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  .bottom-right {
+    position: relative; /* Change position to relative for stacking below the cards */
+    margin-top: 20px; /* Add margin to create space between cards and the bottom content */
+    right: 0;
+  }
+
+  .portrait-image {
+    width: 200px; /* Adjust the width to fill the container */
+    height: 100px; /* Make the image responsive */
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 3px; /* Add margin between the image and text */
+    margin-top: 20px;
+  }
+
+  .portrait-text {
+    font-size: 20px;
+  }
+}
